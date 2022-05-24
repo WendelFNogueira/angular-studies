@@ -1,0 +1,7 @@
+.proj:hover {
+    cursor: pointer;
+}
+.proj:active {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}

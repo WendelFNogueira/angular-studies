@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calculadora';
+  projetos: any[] = [
+    { nome: 'Calculadora', path: '/calculadora' },
+    { nome: 'Gerenciador de Tarefas', path: '/gerenciador-tarefas' },
+    { nome: 'Jogo da Velha', path: '/jogo-da-velha' },
+    { nome: 'Conversor de Moedas', path: '/conversor-moedas' },
+    { nome: 'Dashboard', path: '/dashboard' }
+  ];
 }
