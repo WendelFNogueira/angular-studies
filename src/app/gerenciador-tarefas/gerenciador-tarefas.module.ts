@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GerenciadorTarefasComponent } from './gerenciador-tarefas.component';
+import { TarefasModule } from './components';
 
 
 
@@ -9,7 +10,8 @@ import { GerenciadorTarefasComponent } from './gerenciador-tarefas.component';
     GerenciadorTarefasComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    TarefasModule
   ],
   exports: [
     GerenciadorTarefasComponent
